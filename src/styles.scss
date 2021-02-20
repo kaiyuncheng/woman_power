@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+body{
+  font-family: 'Noto Sans TC', sans-serif;
+  background-size: 40px 40px;
+  background-image: 
+  linear-gradient(to right,#25526e1a 1px,transparent 1px),
+  linear-gradient(to bottom,#25526e1a 1px,transparent 1px),
+  linear-gradient(to bottom,#FBF8F8 ,#FBF8F8);
+}
+
+.hero{
+  height: 600px;
+
+}
+
+@media (min-width: 768px){
+  .hero{
+    height: 800px;
+  }
+}
+
+@media (min-width: 992px){
+  .hero{
+    height: 1000px;
+  }
+}
+
+.title{
+  
+}
+
+// .leaves_left{
+//   width: 100%;
+
+// }
