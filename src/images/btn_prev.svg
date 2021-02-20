@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 60 60">
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
   <g id="btn_prev_pink" transform="translate(60 60) rotate(180)">
     <g id="Ellipse" data-name="Ellipse" fill="#ff398d" stroke="#ff398d" stroke-width="1">
-      <circle cx="30" cy="30" r="29.5"/>
+      <circle cx="30" cy="30" r="30" stroke="none"/>
+      <circle cx="30" cy="30" r="29.5" fill="none"/>
     </g>
     <g id="Icon_feather-arrow-down-right" data-name="Icon feather-arrow-down-right" transform="translate(4.544 30) rotate(-45)">
       <path id="Path_69" data-name="Path 69" d="M10.5,10.5l15,15" fill="none" stroke="#fbf8f8" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
