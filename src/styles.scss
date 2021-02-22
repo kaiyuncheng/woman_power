@@ -44,9 +44,16 @@ body{
   left: 60%;
 }
 
+.video_image{
+  height: 250px;
+}
+
 @media (min-width: 576px) {
   .face_right {
     left: 40%;
+  }
+  .video_image{
+    height: 300px;
   }
 }
 
@@ -61,6 +68,9 @@ body{
     right: 30%;
     min-height: 250px;
   }
+  .video_image{
+    height: 400px;
+  }
 }
 
 @media (min-width: 996px) {
@@ -71,6 +81,10 @@ body{
   .face_right {
     right: 35%;
     min-height: 0;
+  }
+
+  .video_image{
+    height: 600px;
   }
 }
 
@@ -84,5 +98,7 @@ body{
     min-height: 350px;
   }
 }
+
+
 
 

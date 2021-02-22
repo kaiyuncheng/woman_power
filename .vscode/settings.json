@@ -1,3 +1,4 @@
 {
+    "tailwindCSS.colorDecorators": "on",
     "tailwindCSS.emmetCompletions": true
 }
