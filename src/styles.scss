@@ -14,7 +14,6 @@ body{
 }
 
 .hero{
-<<<<<<< HEAD
   height:100vh;
   max-height: 1080px;
   min-height: 650px;
@@ -29,21 +28,11 @@ body{
 @media (min-width: 768px) {
   .hero {
     max-height: 900px;
-=======
-  height: 600px;
-
-}
-
-@media (min-width: 768px){
-  .hero{
-    height: 800px;
->>>>>>> 06dda8a507aee149ce5d7910c664695abe10d9c4
   }
 }
 
 @media (min-width: 992px){
   .hero{
-<<<<<<< HEAD
     max-height: 800px;
     min-height: 700px;
   }
@@ -97,18 +86,3 @@ body{
 }
 
 
-=======
-    height: 1000px;
-  }
-}
-
-.slider_image{
-  width: 550px;
-  
-}
-
-// .leaves_left{
-//   width: 100%;
-
-// }
->>>>>>> 06dda8a507aee149ce5d7910c664695abe10d9c4

@@ -1,8 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
-<<<<<<< HEAD
 
-=======
->>>>>>> 06dda8a507aee149ce5d7910c664695abe10d9c4
   <g id="btn_prev_pink" transform="translate(60 60) rotate(180)">
     <g id="Ellipse" data-name="Ellipse" fill="#ff398d" stroke="#ff398d" stroke-width="1">
       <circle cx="30" cy="30" r="30" stroke="none"/>
