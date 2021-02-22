@@ -1,16 +1,41 @@
 import './styles.scss';
-console.log("hello world!");
+import LazyLinePainter from 'lazy-line-painter';
 
-(function(){ 
 
-    document.onreadystatechange = () => {
+let leavesRight = document.querySelector('#leaves_right');
+let leavesRightAnimation = new LazyLinePainter(leavesRight, {
+  ease: 'easeLinear',
+  strokeWidth: 3,
+  strokeOpacity: 1,
+  strokeColor: '#D5C5BD',
+  strokeCap: 'round',
+  reverse: true,
+});
+leavesRightAnimation.paint();
 
-      if (document.readyState === 'complete') {
+let stroke = document.querySelector('#stroke');
+let strokeAnimation = new LazyLinePainter(stroke, {
+  ease: 'easeLinear',
+  strokeWidth: 100,
+  strokeOpacity: 1,
+  strokeColor: '#FFD295',
+  strokeCap: 'round',
+});
+strokeAnimation.paint();
 
-        let el1 = document.querySelector('#leaves_right');
-        let myAnimation1 = new LazyLinePainter(el1, {"ease":"easeLinear","strokeWidth":3,"strokeOpacity":1,"strokeColor":"#D5C5BD","strokeCap":"round","reverse":true}); 
-        myAnimation1.paint(); 
-      }
-    }
-
-  })();
+// (function () {
+//   document.onreadystatechange = () => {
+//     if (document.readyState === 'complete') {
+//       let el = document.querySelector('#leaves_right');
+//       let myAnimation = new LazyLinePainter(el, {
+//         ease: 'easeLinear',
+//         strokeWidth: 3,
+//         strokeOpacity: 1,
+//         strokeColor: '#D5C5BD',
+//         strokeCap: 'round',
+//         reverse: true,
+//       });
+//       myAnimation.paint();
+//     }
+//   };
+// })();
