@@ -13,92 +13,48 @@ body{
   linear-gradient(to bottom,#FBF8F8 ,#FBF8F8);
 }
 
+
 .hero{
   height:100vh;
   max-height: 1080px;
-  min-height: 650px;
-}
-
-@media (min-width: 576px){
-  .hero {
-    max-height: 800px;
-  }
-}
-
-@media (min-width: 768px) {
-  .hero {
-    max-height: 900px;
-  }
-}
-
-@media (min-width: 992px){
-  .hero{
-    max-height: 800px;
-    min-height: 700px;
-  }
-}
-
-
-.face_right {
-  right: auto;
-  left: 60%;
+  min-height: 680px;
 }
 
 .video_image{
   height: 250px;
 }
 
-@media (min-width: 576px) {
-  .face_right {
-    left: 40%;
+@media (min-width: 568px){
+  .hero {
+    min-height: 800px;
+    max-height: 850px;
   }
+
   .video_image{
     height: 300px;
   }
 }
 
 @media (min-width: 768px) {
-  .face_left{
-    min-height: 240px;
-
-  }
-
-  .face_right {
-    left: auto;
-    right: 30%;
-    min-height: 250px;
+  .hero {
+    min-height: 950px;
+    max-height: 1080px;
   }
   .video_image{
     height: 400px;
   }
 }
 
-@media (min-width: 996px) {
-  .face_left {
-    min-height: 0;
-
-  }
-  .face_right {
-    right: 35%;
-    min-height: 0;
+@media (min-width: 992px){
+  .hero{
+    min-height: 700px;
+    max-height: 800px;
+    
   }
 
   .video_image{
     height: 600px;
   }
 }
-
-@media (min-width: 1080px) {
-  .face_left {
-    min-height: 350px;
-
-  }
-  .face_right {
-    right: 36%;
-    min-height: 350px;
-  }
-}
-
-
 
 
